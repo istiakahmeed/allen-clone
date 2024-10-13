@@ -16,7 +16,7 @@ export default function ClassRoomProgram() {
               250+ classrooms
             </p>
             <Button
-              className="bg-white text-gray-900 hover:bg-[#1A243A] hover:text-gray-300"
+              className="bg-white text-black hover:bg-[#1A243A] hover:text-gray-300"
               label="Find a centre"
             />
           </div>
