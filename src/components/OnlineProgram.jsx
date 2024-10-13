@@ -15,7 +15,7 @@ export default function OnlineProgram() {
           />
           <ProgramCard
             title="NEET"
-            imageSrc="/public/neet_0._2x_dkqbnv.webp"
+            imageSrc="/neet_0._2x_dkqbnv.webp"
             alt="NEET program illustration"
           />
           <ProgramCard
