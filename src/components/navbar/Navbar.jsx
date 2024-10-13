@@ -1,5 +1,5 @@
 import { Phone } from "lucide-react";
-import NavLink from "./Navlink";
+import LinkComponent from "./LinkComponent";
 
 export default function Navbar() {
   return (
@@ -11,11 +11,11 @@ export default function Navbar() {
               <img src="/logo_dark.svg" alt="logo" width={100} height={100} />
             </a>
             <div className="md:flex gap-6 justify-center items-center hidden">
-              <NavLink to={""} text="Exams" />
-              <NavLink to={""} text="Programs" />
-              <NavLink to={""} text="Scholarship" />
-              <NavLink to={""} text="Test Series" />
-              <NavLink to={""} text="Study Materials" />
+              <LinkComponent to={""} text="Exams" />
+              <LinkComponent to={""} text="Programs" />
+              <LinkComponent to={""} text="Scholarship" />
+              <LinkComponent to={""} text="Test Series" />
+              <LinkComponent to={""} text="Study Materials" />
             </div>
           </div>
 
