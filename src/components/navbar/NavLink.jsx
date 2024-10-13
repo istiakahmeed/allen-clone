@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom";
 
-const LinkComponent = ({
+const NavLink = ({
   to,
   text,
   textColor = "text-white",
@@ -37,4 +37,4 @@ const LinkComponent = ({
   );
 };
 
-export default LinkComponent;
+export default NavLink;
