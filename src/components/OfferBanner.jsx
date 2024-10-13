@@ -7,6 +7,7 @@ const OfferBanner = () => {
     "/gbvvlbtgpsecq57ivwff.webp",
     "/Homepage_Banner_1_sn5css.webp",
     "/v6cgvy44tde2yjq4yguo.webp",
+    "/wr9qyk4gyqgnntgonfvy.webp",
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -30,7 +31,7 @@ const OfferBanner = () => {
 
   return (
     <SectionContainer>
-      <div className=" overflow-hidden h-screen">
+      <div className=" overflow-hidden">
         {/* Slides */}
         <div
           className="flex transition-transform duration-700 ease-in-out"
