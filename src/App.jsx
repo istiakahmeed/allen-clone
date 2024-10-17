@@ -2,6 +2,8 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
+
+import Neet from "./pages/exams/neet/Neet";
 import HomePage from "./pages/home/HomePage";
 
 function App() {
@@ -11,7 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/exams" element={""} />
+          <Route path="/neet" element={<Neet />} />
           <Route path="/programs" element={""} />
           <Route path="/scholarships" element={""} />
           <Route path="/test-series" element={""} />

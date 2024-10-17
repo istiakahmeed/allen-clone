@@ -12,11 +12,7 @@ export default function Navbar() {
               <img src="/logo_dark.svg" alt="logo" width={100} height={100} />
             </a>
             <div className="md:flex gap-6 justify-center items-center hidden">
-              <LinkComponent
-                to={""}
-                text="Exams"
-                dropdownLinks={examsDropdownLinks}
-              />
+              <LinkComponent text="Exams" dropdownLinks={examsDropdownLinks} />
               <LinkComponent
                 to={""}
                 text="Programs"

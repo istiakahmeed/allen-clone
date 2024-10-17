@@ -5,7 +5,7 @@ export default function ClassRoomProgram() {
   return (
     <SectionContainer>
       <div className="bg-[#0F1824] text-white p-8">
-        <h2 className="text-3xl font-bold mb-6">
+        <h2 className="text-3xl font-semibold mb-6">
           Looking for a classroom based program?
         </h2>
         <div className="bg-[#1A243A] rounded-lg p-8 flex flex-col md:flex-row items-center justify-between">
