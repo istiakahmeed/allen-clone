@@ -5,7 +5,7 @@ export default function OnlineProgram() {
   return (
     <SectionContainer>
       <div className="bg-[#0F1824] text-white p-8">
-        <h2 className="text-4xl   mb-6">Discover the perfect online program</h2>
+        <h2 className="text-3xl   mb-6">Discover the perfect online program</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <ProgramCard
             title="JEE"

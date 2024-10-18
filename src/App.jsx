@@ -9,6 +9,7 @@ import Jee from "./pages/exams/jee/Jee";
 import Neet from "./pages/exams/neet/Neet";
 import HomePage from "./pages/home/HomePage";
 import OnlinePrograms from "./pages/programs/onlineprograms/OnlinePrograms";
+import Adsat from "./pages/scholarship/adsat/Adsat";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <Route path="/neet" element={<Neet />} />
           <Route path="/jee" element={<Jee />} />
           <Route path="/online-programs" element={<OnlinePrograms />} />
-          <Route path="/test-series" element={""} />
+          <Route path="/adsat" element={<Adsat />} />
           <Route path="/study-materials" element={""} />
           <Route path="*" element={<CuteNotFoundPage />} />
         </Routes>
