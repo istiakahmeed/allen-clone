@@ -21,7 +21,7 @@ const Jee = () => {
         title="JEE Online Coaching"
         description="Our JEE Online coaching programs prioritize the NCERT syllabus, a cornerstone for JEE success. You get access to exclusive study tools and techniques to enhance memory retention and boost your speed, two crucial factors in acing the JEE exam" // Replace with your image path
         breadcrumbLinks={breadcrumbLinks}
-        imageSrc={"/public/200_jee_pnsy0n.webp"}
+        imageSrc={"/200_jee_pnsy0n.webp"}
       />
       <div className="w-full h-auto px-7 my-5 pt-3">
         <a href="">

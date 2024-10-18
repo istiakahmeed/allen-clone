@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 
 import CuteNotFoundPage from "./components/CuteNotFoundPage";
 
+import Contact from "./pages/contact/Contact";
 import Jee from "./pages/exams/jee/Jee";
 import Neet from "./pages/exams/neet/Neet";
 import HomePage from "./pages/home/HomePage";
@@ -22,7 +23,7 @@ function App() {
           <Route path="/jee" element={<Jee />} />
           <Route path="/online-programs" element={<OnlinePrograms />} />
           <Route path="/adsat" element={<Adsat />} />
-          <Route path="/study-materials" element={""} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<CuteNotFoundPage />} />
         </Routes>
         <Footer />

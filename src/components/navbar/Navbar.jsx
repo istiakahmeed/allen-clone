@@ -1,4 +1,5 @@
 import { Phone } from "lucide-react";
+import { Link } from "react-router-dom";
 import {
   examsDropdownLinks,
   programsDropdownLinks,
@@ -36,10 +37,12 @@ export default function Navbar() {
 
           {/* Buttons */}
           <div className="md:flex items-center space-x-4">
-            <button className="bg-white text-gray-800 font-medium py-2 px-4 rounded-full border border-gray-300 hover:bg-gray-100 flex items-center space-x-2">
-              <Phone size={18} />
-              <span>Talk to us</span>
-            </button>
+            <Link to="/contact">
+              <button className="bg-white text-gray-800 font-medium py-2 px-4 rounded-full border border-gray-300 hover:bg-gray-100 flex items-center space-x-2">
+                <Phone size={18} />
+                <span>Talk to us</span>
+              </button>
+            </Link>
             <button className="bg-gray-800 text-white font-normal py-2 px-4 rounded-full hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-opacity-50 transition duration-300 border border-white hidden md:block">
               Login
             </button>
