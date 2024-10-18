@@ -12,7 +12,7 @@ import SpecialPrograms from "./SpecialPrograms";
 const Jee = () => {
   const breadcrumbLinks = [
     { name: "Home", url: "/" },
-    { name: "Online Coaching", url: "/online-coaching" },
+    { name: "Online Programs", url: "/online-programs" },
     { name: "JEE" },
   ];
   return (

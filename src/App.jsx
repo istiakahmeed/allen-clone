@@ -4,9 +4,11 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 
 import CuteNotFoundPage from "./components/CuteNotFoundPage";
+
 import Jee from "./pages/exams/jee/Jee";
 import Neet from "./pages/exams/neet/Neet";
 import HomePage from "./pages/home/HomePage";
+import OnlinePrograms from "./pages/programs/onlineprograms/OnlinePrograms";
 
 function App() {
   return (
@@ -17,7 +19,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/neet" element={<Neet />} />
           <Route path="/jee" element={<Jee />} />
-          <Route path="/scholarships" element={""} />
+          <Route path="/online-programs" element={<OnlinePrograms />} />
           <Route path="/test-series" element={""} />
           <Route path="/study-materials" element={""} />
           <Route path="*" element={<CuteNotFoundPage />} />
