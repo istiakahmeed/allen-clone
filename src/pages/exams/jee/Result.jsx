@@ -5,7 +5,7 @@ const Result = () => {
     <SectionContainer>
       <div className="flex justify-center items-center w-full h-auto mt-2 cursor-pointer">
         <img
-          src="/Carousel_j1svii.webp"
+          src="/Homepage_Entry_Banner_nvf0yj.webp"
           alt="carouse-img"
           className="w-full h-full bg-contain"
         />

@@ -12,12 +12,14 @@ export default function OnlineProgram() {
             imageSrc="/jee_0_250_nbnt3y.webp"
             alt="JEE program illustration"
             btntext={"View"}
+            to={"/jee"}
           />
           <ProgramCard
             title="NEET"
             imageSrc="/neet_0._2x_dkqbnv.webp"
             alt="NEET program illustration"
             btntext={"View"}
+            to={"/neet"}
           />
           <ProgramCard
             title="Grade 6-10"

@@ -3,6 +3,8 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 
+import CuteNotFoundPage from "./components/CuteNotFoundPage";
+import Jee from "./pages/exams/jee/Jee";
 import Neet from "./pages/exams/neet/Neet";
 import HomePage from "./pages/home/HomePage";
 
@@ -14,10 +16,11 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/neet" element={<Neet />} />
-          <Route path="/programs" element={""} />
+          <Route path="/jee" element={<Jee />} />
           <Route path="/scholarships" element={""} />
           <Route path="/test-series" element={""} />
           <Route path="/study-materials" element={""} />
+          <Route path="*" element={<CuteNotFoundPage />} />
         </Routes>
         <Footer />
       </Router>

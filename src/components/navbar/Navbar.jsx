@@ -1,5 +1,10 @@
 import { Phone } from "lucide-react";
-import { examsDropdownLinks, programsDropdownLinks } from "../../utils/link";
+import {
+  examsDropdownLinks,
+  programsDropdownLinks,
+  scholarshipDropdownLinks,
+  TestSeriesDropdownLinks,
+} from "../../utils/link";
 import LinkComponent from "./LinkComponent";
 
 export default function Navbar() {
@@ -14,12 +19,17 @@ export default function Navbar() {
             <div className="md:flex gap-6 justify-center items-center hidden">
               <LinkComponent text="Exams" dropdownLinks={examsDropdownLinks} />
               <LinkComponent
-                to={""}
                 text="Programs"
                 dropdownLinks={programsDropdownLinks}
               />
-              <LinkComponent to={""} text="Scholarship" />
-              <LinkComponent to={""} text="Test Series" />
+              <LinkComponent
+                text="Scholarship"
+                dropdownLinks={scholarshipDropdownLinks}
+              />
+              <LinkComponent
+                text="Test Series"
+                dropdownLinks={TestSeriesDropdownLinks}
+              />
               <LinkComponent to={""} text="Study Materials" />
             </div>
           </div>

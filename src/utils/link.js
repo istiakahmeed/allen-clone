@@ -44,3 +44,46 @@ export const programsDropdownLinks = [
     to: "/distance-learning",
   },
 ];
+
+export const scholarshipDropdownLinks = [
+  {
+    text: "ADSAT",
+    to: "/adsat",
+  },
+  {
+    text: "TALLENTEX",
+    to: "",
+  },
+];
+
+export const TestSeriesDropdownLinks = [
+  {
+    text: "NEET",
+    to: "",
+    nestedLinks: [
+      { text: "Class 11th", to: "" },
+      { text: "Class 12th", to: "" },
+      { text: "Class 12th Plus", to: "" },
+    ],
+  },
+  {
+    text: "JEE(Main+Advanced",
+    to: "",
+    nestedLinks: [
+      { text: "Class 11th", to: "" },
+      { text: "Class 12th", to: "" },
+      { text: "Class 12th Plus", to: "" },
+    ],
+  },
+  {
+    text: "JEEMain",
+    to: "",
+    nestedLinks: [
+      { text: "Class 6", to: "" },
+      { text: "class 7", to: "" },
+      { text: "class 8", to: "" },
+      { text: "class 9", to: "" },
+      { text: "class 10", to: "" },
+    ],
+  },
+];
