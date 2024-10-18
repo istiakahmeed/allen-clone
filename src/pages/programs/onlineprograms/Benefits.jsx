@@ -7,7 +7,7 @@ const Benefits = () => {
         {/* Lamp Icon */}
         <div className="flex items-center justify-center">
           <img
-            src="/public/Lamp-02_xwspws.png"
+            src="/Lamp-02_xwspws.png"
             alt="lamp-image"
             className="w-2/2 h-full hidden md:block"
           />
